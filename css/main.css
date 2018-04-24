@@ -1,0 +1,219 @@
+body{
+	background: url(../images/background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+@font-face {
+font-family: 'Broadway BT';
+font-style: normal;
+font-weight: normal;
+src: local('Broadway BT'), url('8094231822.woff') format('woff');
+}
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+.nav{
+	margin: auto;
+	width: 960px;
+	height: 100px;
+	background-color: rgba(221, 24, 233, 0.6);
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.35);
+}
+li.left
+{
+	font-family: 'Raleway', sans-serif;
+	display: inline-block;
+	text-align: left;
+	color: #1297eb;
+	padding-right: 20px;
+	float: left;
+	padding-top: 20px;
+	font-size: 48px;
+  	text-decoration:none;
+}
+li.right
+{
+	font-family: 'Raleway', sans-serif;
+	display: inline-block;
+	text-align: left;
+	color: #1297eb;
+	padding-right: 20px;
+	float: right;
+	padding-top: 20px;
+	font-size: 48px;
+	text-decoration:none;
+}
+a#portfolio{
+	text-decoration: none;
+}
+.logo_place{
+	margin: auto;
+	width: 960px;
+	background:none;
+}
+.logo{
+	text-align: center;
+	margin: auto;
+	margin-top: -125px;
+	overflow: hidden;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	z-index: 1;
+	background-color: #1297eb;
+}
+.logo h1{
+	padding-top: 10px;
+	font-size: 50px;
+	margin-top: 35px;
+}
+.padd_top_50{
+	padding-top: 50px;
+}
+.padd_top_100{
+	padding-top: 100px;
+}
+.padd_top_200{
+	padding-top: 200px;
+}
+.padd_top_300{
+	padding-top: 300px;
+}
+.content{
+	margin: auto;
+	width: 960px;
+	height: 500px;
+	text-align: center;
+}
+.content h1{
+	font-family: Broadway BT;
+	color: white;
+	padding-top: 33px;
+	font-size: 100px;
+	line-height: 20px;
+	text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.35);
+	margin-top: 67px;
+}
+.portfolio{
+	margin: auto;
+	width: 960px;
+	height: 500px;
+	background-color: white;
+	display: none;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.35);
+}
+.about{
+	margin: auto;
+	width: 960px;
+	height: 500px;
+	background-color: white;
+	display: none;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.about_container{
+	display: inline;
+}
+.image img{
+	padding: 25px 15px;
+	width: 350px;
+	height: 500px;
+}
+.text{
+	padding: 25px 15px;
+	float: right;
+	width: 450px;
+}
+.text h1{
+	text-align: left;
+	font-size: 2em;
+}
+.text h2{
+	text-align: left;
+	font-size: 1em;
+}
+.transparent_btn {
+	display: inline-block;
+	color: #1297eb;
+	font-size: 48px;
+	text-decoration: none;
+	border: none;
+	background-color: rgba(255,255,255, 0);
+}
+.transparent_btn:hover {
+	background-color: rgba(255,255,255, 0.05);
+	color: #FFF;
+	border: none;
+}
+.contact_btn{
+	font-family: Broadway BT;
+	margin-left: 90px;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 20px;
+	border: solid 2px rgba(221, 24, 233, 0.6);
+	background-color: rgba(255,255,255, 0);
+}
+.contact_btn:hover{
+	border-radius: 25px;
+	border: solid 3px rgba(221, 24, 233, 0.6);
+	background-color: rgba(221, 24, 233, 0.6);
+}
+.contact_btn_blue{
+	font-family: Broadway BT;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: none;
+	border: solid 2px rgba(18, 151, 235, 1);
+	background-color: rgba(18, 151, 235, 1);
+}
+.contact_btn_blue:hover{
+	background-color: rgba(18, 151, 235, 0.5);
+
+}
+.contact{
+	margin: auto;
+	width: 960px;
+	height: 500px;
+	background-color: white;
+	display: none;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.contact_content{
+	margin: auto;
+	text-align: center;
+	display: table;
+}
+.box-input{
+	border:1px solid rgba(111,117,152,0.3);
+	line-height:48px;
+	width:500px;
+	display:block;
+	background:transparent;
+	padding:0 25px;
+	color:#777;
+}
+.box-textarea{
+	border:1px solid rgba(111,117,152,0.3);
+	width:500px;
+	display:block;
+	background:transparent;
+	padding:15px 25px;
+	color:#777;
+	height:150px;
+	resize:none
+}
+.contact-form ::-webkit-input-placeholder{color:#777777;font-weight:300}
+.contact-form :-moz-placeholder{color:#777777;opacity:1;font-weight:300}
+.contact-form ::-moz-placeholder{color:#777777;opacity:1;font-weight:300}
+.contact-form :-ms-input-placeholder{color:#777777;font-weight:300}
+.contact-form ::-ms-input-placeholder{color:#777777;font-weight:300}
+.mt-1{margin-top:1rem !important}
+.mt-3{margin-top:3rem !important}
+.mt-5{margin-top:5rem !important}
