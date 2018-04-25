@@ -1,4 +1,9 @@
 ﻿# Change log
+ 
+ ## v1.0.0 — April. 26, 2018
+
+**Changes:**
+- CSS FIX
 
 ## v1.0.0 — April. 24, 2018
 
